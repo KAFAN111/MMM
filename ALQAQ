@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقعي الشخصي</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>مرحبًا، أنا [اسمك]</h1>
+        <p>مطور ويب | مصمم | كاتب</p>
+    </header>
+
+    <section id="about">
+        <h2>من أنا؟</h2>
+        <p>أنا [اسمك]، متخصص في [مجالك]. لدي خبرة في [مجالاتك] وأحب مشاركة معرفتي مع الآخرين.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>معرض أعمالي</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>مشروع 1</h3>
+                <p>وصف مختصر للمشروع.</p>
+            </div>
+            <div class="project">
+                <h3>مشروع 2</h3>
+                <p>وصف مختصر للمشروع.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>تواصل معي</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="الاسم" required>
+            <input type="email" placeholder="البريد الإلكتروني" required>
+            <textarea placeholder="رسالتك" required></textarea>
+            <button type="submit">إرسال</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 جميع الحقوق محفوظة لـ [اسمك]</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #007bff;
+    color: white;
+    padding: 20px;
+}
+
+section {
+    padding: 20px;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project {
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    width: 40%;
+}
+
+form input, form textarea {
+    width: 80%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
