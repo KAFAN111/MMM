@@ -46,6 +46,14 @@
             border: 1px solid #ccc;
             direction: ltr;
         }
+        .footer {
+            margin-top: 30px;
+            padding: 10px;
+            background: #0073e6;
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+        }
     </style>
 </head>
 <body>
@@ -111,6 +119,10 @@
             <h2>أدخل سكربتات Lua هنا:</h2>
             <textarea placeholder="اكتب السكربت هنا..."></textarea>
         </div>
+    </div>
+
+    <div class="footer">
+        <p>تم نشر هذا الموقع باستخدام GitHub Pages.</p>
     </div>
 
 </body>
